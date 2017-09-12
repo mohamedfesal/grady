@@ -1,3 +1,12 @@
+// fixed navbar 
+  $(window).scroll(function(){
+    if($(window).scrollTop()>500){
+       $('nav').addClass('fixed-nav');
+    }else{
+      $('nav').removeClass('fixed-nav');
+    }
+  });
+
 // menu open button
 
 $("#menu-open").click(function(){
