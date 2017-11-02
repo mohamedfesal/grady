@@ -593,5 +593,6 @@ textarea:focus~label {
     left: 0;
     background: white;
     z-index: 999;
+    display:none;
 }
 
