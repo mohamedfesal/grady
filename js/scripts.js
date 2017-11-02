@@ -20,6 +20,11 @@ $(window).load(function()
 {
 $(".preloader-container").fadeOut(100);
 });
+$(window).ready(function() {
+window.onload = function () {
+$('.preloader-container').fadeOut(500, function(){ $('.preloader-container').remove(); } );
+}
+});
 //Wow.js
 new WOW().init();
 
