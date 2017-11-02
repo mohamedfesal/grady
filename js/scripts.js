@@ -15,7 +15,11 @@ $("#menu-open").click(function(){
 // fittext.js
   jQuery(".client-title div").fitText(1.2, { minFontSize: '20px', maxFontSize: '60px' });
 
-
+// preloader
+$(window).load(function()
+{
+$(".preloader-container").fadeOut(100);
+});
 //Wow.js
 new WOW().init();
 
