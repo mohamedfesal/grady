@@ -1,3 +1,9 @@
+// preloader 
+jQuery(window).load(function () {
+    jQuery(".preloader").fadeOut(300);
+});
+
+
 // fixed navbar 
   $(window).scroll(function(){
     if($(window).scrollTop()>500){
